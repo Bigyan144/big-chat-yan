@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Big Chat Yan</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+<div id="login-page">
+<h2>Login</h2>
+<input type="text" id="username" placeholder="Username" />
+<input type="password" id="password" placeholder="Password" />
+<button onclick="login()">Login</button>
+</div>
+<div id="chat-page" style="display:none;">
+<h2>Welcome to Big Chat Yan</h2>
+<div id="chat-box"></div>
+<input type="text" id="message" placeholder="Type a message..." />
+<button onclick="sendMessage()">Send</button>
+<input type="file" id="file-input" />
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
